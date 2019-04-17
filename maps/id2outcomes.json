@@ -1,0 +1,270 @@
+{
+    "1": {
+        "0": "Unsuccessful pass ie pass did not find team mate",
+        "1": "Successful pass"
+    },
+    "10": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "11": {
+        "0": "Keeper drops the ball after an attempted catch from a cross. The keeper may then pick up the ball again and retain possession, but this would be a separate event",
+        "1": "Keeper catches the cross in one attempt ie no drop"
+    },
+    "12": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "13": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "14": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "15": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "16": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "17": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "18": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "19": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "2": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "20": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "21": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "22": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "23": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "24": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "25": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "27": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "28": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "3": {
+        "0": "Unsuccessful – player lost possession or was tackled",
+        "1": "Successful take on"
+    },
+    "30": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "32": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "34": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "35": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "36": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "37": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "38": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "39": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "4": {
+        "0": "Player who committed the foul",
+        "1": "Player who was fouled"
+    },
+    "40": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "41": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "42": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "43": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "44": {
+        "0": "Player lost aerial duel",
+        "1": "Player won the aerial duel"
+    },
+    "45": {
+        "0": "Always set to \"0\"",
+        "1": "Always set to \"0\""
+    },
+    "47": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "49": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "5": {
+        "0": "The team that put the ball out",
+        "1": "The team that therefore gained possession"
+    },
+    "50": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "51": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "52": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "53": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "54": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "55": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "56": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "57": {
+        "0": "Player who conceded the foul throw",
+        "1": "Player who won the foul throw"
+    },
+    "58": {
+        "0": "Always set to \"0\"",
+        "1": "Always set to \"0\""
+    },
+    "59": {
+        "0": "Goalkeeper comes off the line and clears ball but possession switches to other team (not the same as player clearing ball out of play which is outcome=\"1\")",
+        "1": "Goalkeeper comes off the line and either clears ball to another team mate (ie possession retained) or straight out of play"
+    },
+    "6": {
+        "0": "The team that conceded the corner",
+        "1": "The team that won the corner"
+    },
+    "60": {
+        "0": "Always set to \"0\"",
+        "1": "Always set to \"0\""
+    },
+    "61": {
+        "0": "Player unsuccessfully controlled the ball ie lost possession",
+        "1": "Ball simply hit player unintentionally"
+    },
+    "63": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "64": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "65": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "66": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "67": {
+        "0": "Player lost 50/50 duel",
+        "1": "Player won 50/50 duel"
+    },
+    "68": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "69": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "7": {
+        "0": "Unsuccessful attempted tackle/challenge from this team to the team on the ball ie other team retains possession after the challenge",
+        "1": "Successful tackle ie challenging player wins possession of the ball from the other team"
+    },
+    "70": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "71": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "72": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "73": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "74": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "8": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    },
+    "9": {
+        "0": "Always set to \"1\"",
+        "1": "Always set to \"1\""
+    }
+}
