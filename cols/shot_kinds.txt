@@ -1,0 +1,22 @@
+Volley
+Strong
+Weak
+Rising
+Dipping
+Lob
+Swerve Left
+Swerve Right
+Swerve Moving
+Deflection
+Keeper Touched
+Keeper Saved
+Hit Woodwork
+Not past goal line
+Big Chance
+Individual Play
+2nd assisted
+Follows a Dribble
+1 on 1 Chip
+Back Heel
+Direct Corner
+First Touch

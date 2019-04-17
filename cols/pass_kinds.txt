@@ -1,0 +1,24 @@
+Long ball
+Cross
+Head pass
+Through ball
+Free kick taken
+Corner taken
+Players caught offside
+Throw-in
+Direct
+Chipped
+Lay-off
+Launch
+Flick-on
+Pull Back
+Switch of play
+Assist
+2nd assist
+In-swinger
+Out-swinger
+Straight
+Indirect
+Tap
+Over-arm
+Overhit Cross

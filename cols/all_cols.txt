@@ -1,0 +1,246 @@
+match_id
+min
+sec
+period_id
+team_id
+player_id
+type_id
+x
+y
+outcome
+assist
+keypass
+id
+event_id
+version
+timestamp
+last_modified
+Long ball
+Cross
+Head pass
+Through ball
+Free kick taken
+Corner taken
+Players caught offside
+Goal disallowed
+Penalty
+Hand
+6-seconds violation
+Dangerous play
+Foul
+Last line
+Head
+Small box- centre
+Box-centre
+Out of box- centre
+35+ centre
+Right footed
+Other body part
+Regular play
+Fast Break
+Set piece
+From corner
+Free kick
+Own goal
+Assisted
+Involved
+Yellow Card
+Second yellow
+Red card
+Referee abuse
+Argument
+Violent conduct
+Time wasting
+Excessive celebration
+Other reason
+Injury
+Tactical
+Player position
+Conditions
+Field Pitch
+Attendance Figure
+Official position
+Official ID
+Injured player id
+Related event ID
+Zone
+End type
+Jersey number
+Small box-right
+Small box-left
+Box-deep right
+Box-right
+Box-left
+Box-deep left
+Out of box-deep right
+Out of box-right
+Out of box-left
+Out of box-deep left
+35+ right
+Left footed
+Left
+High
+Right
+Low left
+High left
+Low centre
+High centre
+Low right
+High Right
+Blocked
+Close left
+Close right
+Close high
+Close left and high
+Close right and high
+High claim
+1 on 1
+Def block
+Six yard blocked
+Saved off line
+Goal mouth y co-ordinate
+Goal mouth z co-ordinate
+Throw-in
+Volley
+Strong
+Weak
+Lob
+Swerve Left
+Swerve Right
+Swerve Moving
+Keeper Throw
+Goal Kick
+Direction of Play
+Team formation
+Team player formation
+Dive
+Deflection
+Keeper Touched
+Keeper Saved
+Hit Woodwork
+Own Player
+Pass End X
+Pass End Y
+Explanation of Deleted Event
+Formation slot
+Blocked x co- ordinate
+Blocked y co- ordinate
+Direct
+Not past goal line
+Intentional assist
+Chipped
+Lay-off
+Launch
+Persistent infringement
+Foul and abusive language
+Throw-in set piece
+Leaving field
+Professional foul last man
+Professional foul handball
+Out of play
+Flick-on
+Leading to attempt
+Leading to goal
+Rescinded card
+Parried safe
+Parried danger
+Fingertip
+Caught
+Collected
+Standing
+Diving
+Stooping
+Reaching
+Hands
+Feet
+Dissent
+Blocked cross
+Scored
+Saved
+Missed
+Not visible
+From shot off target
+Off the ball foul
+Block by hand
+Goal Measure
+Captain
+Pull Back
+Switch of play
+Team kit
+GK hoof
+Gk kick from hands
+Referee stop
+Referee delay
+Crowd Trouble
+Object thrown on pitch
+Referee Injury
+Game end
+Assist
+Overrun
+Length
+Angle
+Big Chance
+Individual Play
+2nd related event ID
+2nd assisted
+2nd assist
+In-swinger
+Out-swinger
+Straight
+Resume
+Own shot blocked
+Post-match complete
+GK X
+GK Y
+Unchallenged
+Opposite related event ID
+Blocked Pass
+Low
+Fair Play
+By Wall
+GK Start
+Indirect
+Obstruction
+Unsporting Behaviour
+Not Retreating
+Serious Foul
+Drinks Break
+Offside
+Goal Line
+Follows a Dribble
+Open Roof
+Air Humidity
+Air Pressure
+Celsius degrees
+1 on 1 Chip
+Back Heel
+Aerial Foul
+Attempted Tackle
+Hit Right Post
+Hit Left Post
+Hit Bar
+Out on sideline
+Minutes
+Tap
+Kick Off
+Fantasy Assist Type
+Fantasy Assisted By
+Fantasy Assist Team
+Coach ID
+Defensive
+Offensive
+Over-arm
+Detailed Position ID
+Position Side ID
+Shove/push
+Shirt Pull/Holding
+Elbow/Violent Conduct
+Follows shot rebound
+Follows shot blocked
+Solo run
+Checks complete
+Ball In Play
+Player comes back
+End of offside
+Captain change
+Extra flag for checker

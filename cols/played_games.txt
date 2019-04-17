@@ -1,0 +1,190 @@
+Angers - Caen
+Angers - Dijon
+Angers - Lille
+Angers - Lorient
+Angers - Marseille
+Angers - Nantes
+Angers - Nice
+Angers - Saint-Étienne
+Angers - Toulouse
+Bastia - Angers
+Bastia - Bordeaux
+Bastia - Dijon
+Bastia - Guingamp
+Bastia - Marseille
+Bastia - Metz
+Bastia - Montpellier
+Bastia - Nancy
+Bastia - Paris SG
+Bastia - Toulouse
+Bordeaux - Angers
+Bordeaux - Caen
+Bordeaux - Dijon
+Bordeaux - Lille
+Bordeaux - Lorient
+Bordeaux - Monaco
+Bordeaux - Nancy
+Bordeaux - Nantes
+Bordeaux - Nice
+Bordeaux - Saint-Étienne
+Caen - Bastia
+Caen - Dijon
+Caen - Guingamp
+Caen - Lorient
+Caen - Metz
+Caen - Nice
+Caen - Paris SG
+Caen - Saint-Étienne
+Caen - Toulouse
+Dijon - Guingamp
+Dijon - Lorient
+Dijon - Lyon
+Dijon - Marseille
+Dijon - Metz
+Dijon - Monaco
+Dijon - Montpellier
+Dijon - Nantes
+Dijon - Rennes
+Dijon - Toulouse
+Guingamp - Angers
+Guingamp - Bordeaux
+Guingamp - Lille
+Guingamp - Lorient
+Guingamp - Marseille
+Guingamp - Montpellier
+Guingamp - Nantes
+Guingamp - Nice
+Guingamp - Paris SG
+Lille - Bastia
+Lille - Caen
+Lille - Dijon
+Lille - Lyon
+Lille - Monaco
+Lille - Montpellier
+Lille - Nancy
+Lille - Paris SG
+Lille - Rennes
+Lille - Toulouse
+Lorient - Bastia
+Lorient - Lille
+Lorient - Lyon
+Lorient - Monaco
+Lorient - Montpellier
+Lorient - Nancy
+Lorient - Nantes
+Lorient - Rennes
+Lorient - Saint-Étienne
+Lyon - Angers
+Lyon - Bastia
+Lyon - Bordeaux
+Lyon - Caen
+Lyon - Guingamp
+Lyon - Montpellier
+Lyon - Paris SG
+Lyon - Rennes
+Lyon - Saint-Étienne
+Marseille - Bordeaux
+Marseille - Caen
+Marseille - Lille
+Marseille - Lorient
+Marseille - Lyon
+Marseille - Metz
+Marseille - Nancy
+Marseille - Nantes
+Marseille - Toulouse
+Metz - Angers
+Metz - Bordeaux
+Metz - Guingamp
+Metz - Lille
+Metz - Lorient
+Metz - Lyon
+Metz - Monaco
+Metz - Nice
+Metz - Saint-Étienne
+Monaco - Angers
+Monaco - Bastia
+Monaco - Caen
+Monaco - Guingamp
+Monaco - Lyon
+Monaco - Marseille
+Monaco - Montpellier
+Monaco - Nancy
+Monaco - Paris SG
+Monaco - Rennes
+Montpellier - Angers
+Montpellier - Bordeaux
+Montpellier - Caen
+Montpellier - Marseille
+Montpellier - Metz
+Montpellier - Nancy
+Montpellier - Nice
+Montpellier - Paris SG
+Montpellier - Rennes
+Nancy - Angers
+Nancy - Caen
+Nancy - Dijon
+Nancy - Guingamp
+Nancy - Lyon
+Nancy - Metz
+Nancy - Nantes
+Nancy - Nice
+Nancy - Paris SG
+Nantes - Bastia
+Nantes - Caen
+Nantes - Lille
+Nantes - Lyon
+Nantes - Metz
+Nantes - Monaco
+Nantes - Montpellier
+Nantes - Rennes
+Nantes - Saint-Étienne
+Nantes - Toulouse
+Nice - Bastia
+Nice - Dijon
+Nice - Lille
+Nice - Lorient
+Nice - Lyon
+Nice - Marseille
+Nice - Monaco
+Nice - Nantes
+Nice - Rennes
+Nice - Toulouse
+Paris SG - Angers
+Paris SG - Bordeaux
+Paris SG - Dijon
+Paris SG - Lorient
+Paris SG - Marseille
+Paris SG - Metz
+Paris SG - Nantes
+Paris SG - Nice
+Paris SG - Rennes
+Paris SG - Saint-Étienne
+Rennes - Angers
+Rennes - Bastia
+Rennes - Bordeaux
+Rennes - Caen
+Rennes - Guingamp
+Rennes - Marseille
+Rennes - Metz
+Rennes - Nancy
+Rennes - Saint-Étienne
+Rennes - Toulouse
+Saint-Étienne - Bastia
+Saint-Étienne - Dijon
+Saint-Étienne - Guingamp
+Saint-Étienne - Lille
+Saint-Étienne - Marseille
+Saint-Étienne - Monaco
+Saint-Étienne - Montpellier
+Saint-Étienne - Nancy
+Saint-Étienne - Nice
+Saint-Étienne - Toulouse
+Toulouse - Bordeaux
+Toulouse - Guingamp
+Toulouse - Lorient
+Toulouse - Lyon
+Toulouse - Metz
+Toulouse - Monaco
+Toulouse - Montpellier
+Toulouse - Nancy
+Toulouse - Paris SG

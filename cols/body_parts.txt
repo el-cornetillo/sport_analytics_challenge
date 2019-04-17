@@ -1,0 +1,4 @@
+Left footed
+Right footed
+Head
+Other body part

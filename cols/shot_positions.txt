@@ -1,0 +1,16 @@
+Small box- centre
+Box-centre
+Out of box- centre
+35+ centre
+Small box-right
+Small box-left
+Box-deep right
+Box-right
+Box-left
+Box-deep left
+Out of box-deep right
+Out of box-right
+Out of box-left
+Out of box-deep left
+35+ right
+35+ left

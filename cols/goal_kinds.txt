@@ -1,0 +1,18 @@
+Penalty
+Own goal
+Volley
+Strong
+Weak
+Lob
+Swerve Left
+Swerve Right
+Swerve Moving
+Deflection
+Big Chance
+Individual Play
+2nd assisted
+Follows a Dribble
+1 on 1 Chip
+Back Heel
+Direct Corner
+First Touch
