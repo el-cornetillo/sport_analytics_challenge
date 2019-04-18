@@ -3,7 +3,7 @@ My solution to the X/PSG Sport Analytics Challenge
 
 
 <p align="center"><img src="imgs/confusion_teams_positions.png"></p>
-<p align="center"><img src="imgs/confusion_role.png" heigth="200" width="200"></p>
+<p align="center"><img src="imgs/confusion_role.png" heigth="400" width="400"></p>
 
 # Instructions
 
