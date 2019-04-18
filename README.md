@@ -61,7 +61,7 @@ Given 15 minutes of a game, we extract all events relative to the particular pla
 
 The contexts are placed in a a Bidirectionnal GRU with attention mechanism, so that the network can emphasize on the surrouding events that do matter in order to understand what was the context when the player did his action. Contexts and event encoded are then concatenated in a (3, 100) tensor and fed to another Bidirectionnal GRU + Dense combinaison, which leads to the final feature map.
 
-### The full player net architecture
+### The macro statistics net architecture
 
 During the training phase, the event encoder is jointly learned with some structured features :
 * Statistics computed on the team playing at home for 15 minutes, leading to 295 features
@@ -72,7 +72,9 @@ Those features include attributes such as number of shots, passes, goals and per
 
 Network passings are also computed at the scale of the pitch zone (the exact position (X,Y) is unknown at test time), to indicate connectivity of the teams and learn some playing style associated to the different teams when they play at home or away :
 
-<p align="center"><img src ="imgs/network_passing.png" height="400" width="500"></p>
+<p align="center"><img src ="imgs/network_passing.png" height="400" width="600"></p>
+
+### The full player net architecture
 
 This leads to a complete architecture that looks like this :
 
