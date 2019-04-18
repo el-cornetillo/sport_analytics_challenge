@@ -3,6 +3,7 @@ My solution to the X/PSG Sport Analytics Challenge
 
 
 <p align="center"><img src="imgs/confusion_matrices.png"></p>
+<p align="center"><img src="imgs/new_conf.png"></p>
 
 # Instructions
 
