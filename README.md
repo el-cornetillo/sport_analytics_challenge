@@ -2,8 +2,8 @@
 My solution to the X/PSG Sport Analytics Challenge
 
 
-<p align="center"><img src="imgs/confusion_matrices.png"></p>
-<p align="center"><img src="imgs/new_conf.png"></p>
+<p align="center"><img src="imgs/confusion_teams_positions.png"></p>
+<p align="center"><img src="imgs/confusion_role.png"></p>
 
 # Instructions
 
