@@ -1,7 +1,6 @@
 # sport_analytics_challenge
 My solution to the X/PSG Sport Analytics Challenge
 
-
-![](/imgs/net_player.jpg | width=100)
+<img src="/imgs/net_player.jpg" height="1000" width="900">
 
 
