@@ -2,6 +2,6 @@
 My solution to the X/PSG Sport Analytics Challenge
 
 
-![](/imgs/"Untitled diagram.jpg")
+![](/imgs/"Untitled Diagram.jpg")
 
 
