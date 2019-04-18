@@ -2,6 +2,6 @@
 My solution to the X/PSG Sport Analytics Challenge
 
 
-![](/imgs/network_meb.png)
+![](/imgs/network_emb.png)
 
 
