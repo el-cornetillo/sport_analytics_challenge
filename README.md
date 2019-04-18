@@ -88,3 +88,32 @@ The model is trained with Adam optimizer starting with learning rate 0.0005. The
 At test time, some informations about the team are sometimes present in the dataset. That is, in the case of a formation change for instance, the team can be inferred. Is that leaking ? However, this information is precious, since we can restrict the predictions and compute the argmax on softmax distribution only on players that we know belong to the detected team. This gives a significant boost of accuracy.
 Also, once we discovered which team is playing, we can also restrict the possibilities for the second team since we know which games have already been played in the first half of the season ( a same team will not play two times at home with the same opponent). This allows to restrict predictions for both teams, even when the leaked information could enable to guess only on of them.
 
+
+## The next event model
+
+The two other tasks are to predict the position (X, Y) of the next event (after the 15 minutes), and the team that will be concerned (team 1 or team 0). This time we do not have the outcome and qualifiers information for the events, but we know the position of the ball for the 10 last events.
+
+As for the player net model, some "light" embeddings are computed on the events (light because we only know the type of event this time, not the outcome neither the qualifiers or pitch zones involved, etc). This leads to a much smaller vocabulary of about 40 words (and for this reason, the embedding dim is chosen smaller, here 50).
+
+The architecture is a bidirectionnal GRU network, that takes as input several sequences :
+* the 10 events
+* the 10 positions
+* an indicator that tracks weither the events were from the same team as the 10th event or not
+* delta times between 2 consecutive events
+
+A sample for this network therefoor looks like this :
+
+events | x | y | refs | delta
+pass |	87.1 | 0.0 | 0	| 25
+pass |	93.7 | 7.5 | 0	| 1
+out |	81.2 | -1.3 |	1 |	1
+out |	81.2 | -1.3 |	0 |	0
+pass |	85.9 | 0.0 | 1 | 13
+pass |	70.8 | 6.8 | 1 | 2
+pass |	84.9 | 5.4 | 1 | 2
+pass |	54.3 | 32.3 |	0	| 2
+pass |	70.2 | 37.6 |	1	| 2
+aerial | 59.0 |	28.2 |	1	| 1
+
+and the target to predict is next position and a binary value that indicates weither the possession changed after the last event.
+
