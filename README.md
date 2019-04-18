@@ -63,6 +63,19 @@ The contexts are placed in a a Bidirectionnal GRU with attention mechanism, so t
 
 ### The full player net architecture
 
+During the training phase, the event encoder is jointly learned with some structured features :
+* Statistics computed on the team playing at home for 15 minutes, leading to 295 features
+* Statistics computed on the team playing away for 15 minutes, leading to 295 features
+* Statistics computed on the indiviual player for 15 minutes, leading to 284 features
+
+Those features include attributes such as number of shots, passes, goals and percentages of succesfull outcomes, body part involved, pitch zone involved, etc etc
+
+Network passings are also computed at the scale of the pitch zone (the exact position (X,Y) is unknown at test time), to indicate connectivity of the teams and learn some playing style associated to the different teams when they play at home or away :
+
+<p align="center"><img src ="imgs/network_passing.png height="400" width="500"></p>
+
+
+
 <img src="/imgs/player_net.png" height="550" width="900">
 
 
