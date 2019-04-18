@@ -104,6 +104,7 @@ The architecture is a bidirectionnal GRU network, that takes as input several se
 A sample for this network therefoor looks like this :
 
 events | x | y | refs | delta
+--- | --- | --- | --- | ---
 pass |	87.1 | 0.0 | 0	| 25
 pass |	93.7 | 7.5 | 0	| 1
 out |	81.2 | -1.3 |	1 |	1
