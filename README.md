@@ -1,6 +1,9 @@
 # sport_analytics_challenge
 My solution to the X/PSG Sport Analytics Challenge
 
+
+<p align="center"><img src="imgs/confusion_matrices.png"></p>
+
 # Instructions
 
 We are given a database of all the games that took place during the 1st half-season of the Ligue 1 2016/2017. Each game is described by an XML file that contains all the events relative to the two teams playing, along with timestamps, positions (X, Y), team_ids, player_ids, event_ids, outcomes and about ~300 qualifiers that describe the event with more details.
