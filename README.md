@@ -17,14 +17,14 @@ At test time, the participant is given 15 minutes of a game played during the 2n
 
 The process is repeated thousands of times, and performances are evaluated with the accuracy for the 2 first tasks and the MSE (mean squared error) for the 3rd task.
 
-I got approximatively :
+I got approximatively (in bold letters the evaluated tasks)
 
-* player identification : 22.2 % 
-* team identification : 41.1 %
-* role identification : 62.6 %
-* position identification : 79.8 %
-* switch team classification : 64.7 %
-* MSE position (X,Y) : 2000
+* **player identification : 22.2 % **
+* player's team identification : 41.1 %
+* player's role identification : 62.6 %
+* player's position identification : 79.8 %
+* **next event binary team classification : 64.7 %**
+* **next event MSE position (X,Y) : 2000**
 
 # My approach
 
