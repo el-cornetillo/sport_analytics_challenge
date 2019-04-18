@@ -72,8 +72,9 @@ Those features include attributes such as number of shots, passes, goals and per
 
 Network passings are also computed at the scale of the pitch zone (the exact position (X,Y) is unknown at test time), to indicate connectivity of the teams and learn some playing style associated to the different teams when they play at home or away :
 
-<p align="center"><img src ="imgs/network_passing.png height="400" width="500"></p>
+<p align="center"><img src ="imgs/network_passing.png" height="400" width="500"></p>
 
+This leads to a complete architecture that looks like this :
 
 
 <img src="/imgs/player_net.png" height="550" width="900">
