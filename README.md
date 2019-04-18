@@ -118,3 +118,4 @@ aerial | 59.0 |	28.2 |	1	| 1
 
 and the target to predict is next position and a binary value that indicates weither the possession changed after the last event.
 
+In the input dataset, positions are normalized to be directed towards the axes of attack of each team. In order to make it easier for the network to predict next position, I normalize them to be directed towards the axe of attack of the HOME TEAM. This way, there is no big jump from a position to the next one, and at test time we will just use the prediction of the team to adjust and renormalize the position if needed (ie if the predicted team is the away team).
