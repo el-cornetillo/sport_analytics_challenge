@@ -2,7 +2,7 @@
 My solution to the X/PSG Sport Analytics Challenge
 
 
-<img src="/imgs/action_encoder.png" height="200" width="700">
+<center><img src="/imgs/action_encoder.png" height="200" width="800"></center>
 
 blablabla
 
