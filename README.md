@@ -35,7 +35,7 @@ We generate pairs :
 
 And then train a supervised model as :
 
-<p align="center"><img src="/imgs/network_emb.png" height="400" width="200"></p>
+<p align="center"><img src="/imgs/network_emb.png" height="300" width="250"></p>
 
 Afer tSNE reduction, the 200-dim embeddings look like this :
 
@@ -49,7 +49,7 @@ x |	y	| text | event_type | MD5 hash
 
 And can be plotted as this :
 
-<p align="center"><img src="/imgs/event_embeddings.png"  height="400" width="400"></p>
+<p align="center"><img src="/imgs/event_embeddings.png"  height="450" width="450"></p>
 
 
 
