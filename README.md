@@ -2,7 +2,7 @@
 My solution to the X/PSG Sport Analytics Challenge
 
 
-<p align="center"><img src="imgs/confusion_matrices.png"></p>
+<p align="center"><img src="imgs/confusion_matrices.png" width="1000" height="600"></p>
 
 # Instructions
 
