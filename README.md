@@ -53,12 +53,15 @@ And can be plotted as this :
 
 Different words (actions) that belong to the same type of event are nicely clustered together and one can observe that for instance, common events such as Pass and Shots are placed evenly all over the points, and Fouls and Cards are often placed in similar places, same with Tackle/Challenge/Dispossessed, ...
 
+### The sequential action encoder
 
+Given 15 minutes of a game, we extract all events relative to the particular player who we want to identify. For each of his events, we also consider the context in which the player did it, that it we extract the 5 events before and the 5 following events. With the pretrained embeddings, we feed the sequences into the event encoder.
 
 <p align="center"><img src="/imgs/action_encoder.png" height="200" width="700"></p>
 
-blablabla
+The contexts are placed in a a Bidirectionnal GRU with attention mechanism, so that the network can emphasize on the surrouding events that do matter in order to understand what was the context when the player did his action. Contexts and event encoded are then concatenated in a (3, 100) tensor and fed to another Bidirectionnal GRU + Dense combinaison, which leads to the final feature map.
 
+### The full player net architecture
 
 <img src="/imgs/player_net.png" height="550" width="900">
 
