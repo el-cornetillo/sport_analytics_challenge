@@ -59,7 +59,7 @@ Given 15 minutes of a game, we extract all events relative to the particular pla
 
 <p align="center"><img src="/imgs/action_encoder.png" height="200" width="700"></p>
 
-The contexts are placed in a a Bidirectionnal GRU with attention mechanism, so that the network can emphasize on the surrouding events that do matter in order to understand what was the context when the player did his action. Contexts and event encoded are then concatenated in a (3, 100) tensor and fed to another Bidirectionnal GRU + Dense combinaison, which leads to the final feature map.
+The contexts are placed in a a Bidirectionnal GRU with attention mechanism, so that the network can emphasize on the surrounding events that do matter in order to understand what was the context when the player did his action. Contexts and event encoded are then concatenated in a (3, 100) tensor and fed to another Bidirectionnal GRU + Dense combinaison, which leads to the final feature map.
 
 ### The macro statistics net architecture
 
@@ -78,7 +78,9 @@ Network passings are also computed at the scale of the pitch zone (the exact pos
 
 This leads to a complete architecture that looks like this :
 
-
 <img src="/imgs/player_net.png" height="550" width="900">
+
+Feature maps from macro statistics of home and away teams are subtracted in order the modelize the interaction between the two teams : final predictions are based upon both the team feature map and the interaction feature map.
+The model is trained with Adam optimize starting with learning rate 0.0005. The loss to be minimized is a linear combinaison of the cross_entropies for the the home team, the away team and the player, giving more weight to the player loss which is the attribute we really aim at predicting. Teams predictions are present in the loss in order to boost the network to learn which player belongs to which team.
 
 
