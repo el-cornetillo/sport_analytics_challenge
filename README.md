@@ -19,7 +19,7 @@ The process is repeated thousands of times, and performances are evaluated with 
 
 I got approximatively (in bold letters the evaluated tasks)
 
-* **player identification : 22.2 % **
+* **player identification : 22.2 %**
 * player's team identification : 41.1 %
 * player's role identification : 62.6 %
 * player's position identification : 79.8 %
