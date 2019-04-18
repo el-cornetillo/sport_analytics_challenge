@@ -81,6 +81,10 @@ This leads to a complete architecture that looks like this :
 <img src="/imgs/player_net.png" height="550" width="900">
 
 Feature maps from macro statistics of home and away teams are subtracted in order the modelize the interaction between the two teams : final predictions are based upon both the team feature map and the interaction feature map.
-The model is trained with Adam optimize starting with learning rate 0.0005. The loss to be minimized is a linear combinaison of the cross_entropies for the the home team, the away team and the player, giving more weight to the player loss which is the attribute we really aim at predicting. Teams predictions are present in the loss in order to boost the network to learn which player belongs to which team.
+The model is trained with Adam optimizer starting with learning rate 0.0005. The loss to be minimized is a linear combinaison of the cross_entropies for the the home team, the away team and the player, giving more weight to the player loss which is the attribute we really aim at predicting. Teams predictions are present in the loss in order to boost the network to learn which player belongs to which team.
 
+### Post processing
+
+At test time, some informations about the team are sometimes present in the dataset. That is, in the case of a formation change for instance, the team can be inferred. Is that leaking ? However, this information is precious, since we can restrict the predictions and compute the argmax on softmax distribution only on players that we know belong to the detected team. This gives a significant boost of accuracy.
+Also, once we discovered which team is playing, we can also restrict the possibilities for the second team since we know which games have already been played in the first half of the season ( a same team will not play two times at home with the same opponent). This allows to restrict predictions for both teams, even when the leaked information could enable to guess only on of them.
 
