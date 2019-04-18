@@ -2,6 +2,6 @@
 My solution to the X/PSG Sport Analytics Challenge
 
 
-![](/imgs/net_player.jpg)
+![](/imgs/net_player.jpg | width=100)
 
 
