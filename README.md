@@ -15,7 +15,7 @@ At test time, the participant is given 15 minutes of a game played during the 2n
 * The team that will play the next event (0 or 1)
 * The position of the ball at the next event 
 
-Eligibles players must have played at least 800 minutes on the 1st half-season (counting additional times), and not having been transfered during the winter mercato. By my calculations it reduces the set of players from 762 to 225.
+Eligible players must have played at least 800 minutes on the 1st half-season (counting additional times), and not having been transfered during the winter mercato. By my calculations it reduces the set of players from 762 to 225.
 
 The process is repeated thousands of times, and performances are evaluated with the accuracy for the 2 first tasks and the MSE (mean squared error) for the 3rd task.
 
