@@ -1,6 +1,6 @@
 # sport_analytics_challenge
-My solution to the [https://www.agorize.com/en/challenges/xpsg/pages/finale](X/PSG Sport Analytics Challenge)
-**Rank : 19/+3000 participants**
+My solution to the [X/PSG Sport Analytics Challenge](https://www.agorize.com/en/challenges/xpsg/pages/finale)
+<br>**Rank : 19/+3000 participants**
 
 
 <p align="center"><img src="imgs/confusion_teams_positions.png"></p>
